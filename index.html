@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Over</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="display">
+        <div class="match-card">
+            <h1 class="title">Super Over Match</h1>
+            <div class="teams">
+                <div class="image-container">
+                <img id="rcb-img" src="https://pbs.twimg.com/media/GJCsUKsWQAAjTBF.jpg" alt="RCB" class="original-image">
+                <img id="rcb-img" src="https://english.cdn.zeenews.com/sites/default/files/2022/05/11/1041313-kohli-abd.jpg" alt="RCB" class="hover-image">
+                </div>
+                <div id="score">
+                    <h1 id="rcb-score">0</h1>
+                    <h1>&nbsp;-&nbsp;</h1>
+                    <h1 id="csk-score">0</h1>
+                </div>
+                <div class="image-container">
+                <img id="csk-img" src="https://i.pinimg.com/originals/39/0f/c7/390fc716070ce65f3cc496d84b909812.jpg" alt="CSK" class="original-image">
+                <img id="csk-img" src="https://media.crictracker.com/media/attachments/1685454976618_Ravindra-Jadeja-and-MSD.jpeg" alt="CSK" class="hover-image">
+            </div>
+            </div>
+            <div class="runs">
+                <div class="rcb-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+                <div class="csk-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="play" value="GO!!" onclick="playSuperOver();">GO!!</button>
+                <button id="reset" onclick="window.location.reload();">Refresh</button>
+            </div>
+            <h1 id="res">Decision Pending!!</h1>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
